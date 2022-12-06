@@ -1,4 +1,4 @@
-.todo-row {
+.todoRow {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,12 @@
   border-radius: 5px;
   width: 90%;
 }
-.completed {
-  text-decoration: line-through;
+.icone {
+  color: white;
+}
+iconeContainer {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  cursor: pointer;
 }
